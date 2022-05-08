@@ -1,4 +1,20 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bill-and-carlo-blog [
+<!ELEMENT bill-and-carlo-blog (user)>
+<!ELEMENT user (id,firstname,lastname,address,birthday,zodiac,age,status,crush,contact)>
+
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+<!ELEMENT zodiac (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT crush (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+]>
+
 <bill-and-carlo-blog>
   <user>
     <id>2341</id>
@@ -25,3 +41,4 @@
     <contact>09568814469</contact>
   </user>
 </bill-and-carlo-blog>
+
