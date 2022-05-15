@@ -11,6 +11,7 @@
 <!ELEMENT zodiac (#PCDATA)>
 <!ELEMENT age (#PCDATA)>
 <!ELEMENT status (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
 <!ELEMENT crush (#PCDATA)>
 <!ELEMENT contact (#PCDATA)>
 ]>
